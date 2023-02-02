@@ -10,7 +10,7 @@ export class FirstComponentComponent {
   name: string = "Roberto";
   age: number = 24;
   job: String = "Programador";
-  hobbies = ["Malhar", " Fumar maconha 🥰", " Jogar", " Assistir animes"];
+  hobbies = ["Malhar", " Jogar", " Assistir animes", " Estudar"];
   car = {
     name: "Polo",
     year: 2019

@@ -9,6 +9,7 @@ import { Animal } from 'src/app/Animal';
 })
 
 export class ListRenderComponent {
+ 
   animals: Animal[] = [
     {name: "Turca", type: "Dog", age: 1},
     {name: "Tom", type: "Cat", age: 4},

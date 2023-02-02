@@ -19,7 +19,7 @@ export class DayScreenComponent {
 
     }else{
       this.modoTela = "escuro";
-      this.elementRef.nativeElement.ownerDocument.body.style.backgroundColor = 'gray';
+      this.elementRef.nativeElement.ownerDocument.body.style.backgroundColor = '#1b1e23';
     }
    }
 

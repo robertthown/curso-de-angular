@@ -17,9 +17,9 @@ export class AppComponent {
   idade = 24;
 
   informacoes = {
-    cpf: "052.830.911-04",
+    cpf: "000.000.000-00",
     kg: 80,
-    altura: 178,
+    altura: 1.78,
   };
 
   title = 'curso-angular';

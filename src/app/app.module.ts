@@ -13,6 +13,9 @@ import { DayScreenComponent } from './components/day-screen/day-screen.component
 import { EmitterComponent } from './components/emitter/emitter.component';
 import { ChangeNumberComponent } from './components/change-number/change-number.component';
 import { ListRenderComponent } from './components/list-render/list-render.component';
+import { PipesComponent } from './components/pipes/pipes.component';
+import { PrimeiroComponenteComponent } from './components/primeiro-componente/primeiro-componente.component';
+import { ListasComponent } from './components/listas/listas.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +29,10 @@ import { ListRenderComponent } from './components/list-render/list-render.compon
     DayScreenComponent,
     EmitterComponent,
     ChangeNumberComponent,
-    ListRenderComponent
+    ListRenderComponent,
+    PipesComponent,
+    PrimeiroComponenteComponent,
+    ListasComponent
   ],
   imports: [
     BrowserModule,

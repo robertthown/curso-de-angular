@@ -1,0 +1,17 @@
+.card{
+    border: solid 1px;
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+}
+
+.lista{
+    display: flex;
+    /* justify-content: center; */
+}
+
+.lista li {
+    font-size: 24px;
+    font-weight: 700;
+    
+}
