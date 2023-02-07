@@ -4,10 +4,6 @@
     font-family: Helvetica;
 }
 
-a{
-    color: orange;
-}
-
 body {
     padding-bottom: 500px;
 }
@@ -17,3 +13,4 @@ body {
     padding: 2em;
     margin-bottom: 1em;
 }
+

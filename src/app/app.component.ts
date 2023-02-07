@@ -23,4 +23,12 @@ export class AppComponent {
   };
 
   title = 'curso-angular';
+  
+  gravadora = "Records";
+
+  musica = {
+    nome: "Burning Stones",
+    artista: "Astrix"
+  };
+
 }

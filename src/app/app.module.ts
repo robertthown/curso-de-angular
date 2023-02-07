@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
-
+import { HttpClientModule } from '@angular/common/http'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FirstComponentComponent } from './components/first-component/first-component.component';
@@ -16,8 +16,10 @@ import { ChangeNumberComponent } from './components/change-number/change-number.
 import { ListRenderComponent } from './components/list-render/list-render.component';
 import { PipesComponent } from './components/pipes/pipes.component';
 import { PrimeiroComponenteComponent } from './components/primeiro-componente/primeiro-componente.component';
-import { ListasComponent } from './components/listas/listas.component';
+import { Pokemons } from './components/pokemons/pokemon.component';
 import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
+import { ComportilhamentoDadosTexteComponent } from './components/comportilhamento-dados-texte/comportilhamento-dados-texte.component';
+import { ItemDetailComponent } from './components/item-detail/item-detail.component';
 
 @NgModule({
   declarations: [
@@ -34,13 +36,16 @@ import { TwoWayBindingComponent } from './components/two-way-binding/two-way-bin
     ListRenderComponent,
     PipesComponent,
     PrimeiroComponenteComponent,
-    ListasComponent,
-    TwoWayBindingComponent
+    Pokemons,
+    TwoWayBindingComponent,
+    ComportilhamentoDadosTexteComponent,
+    ItemDetailComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
